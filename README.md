@@ -4,6 +4,7 @@
     Extracted annotations of the course sass-aprendendo-pre-processadores-css book.
   </p>
 </div>
+
 ## Compilations
 Sass Files (scss)
 ```rb
