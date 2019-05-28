@@ -38,7 +38,7 @@ $nome_variavel = blue;
 **using**
 ``` css
 div {
-	cor: $nome_variavel
+  cor: $nome_variavel
 }
 ```
 
