@@ -6,36 +6,36 @@
 </div>
 ## Compilations
 Sass Files (scss)
-```ruby
+```rb
 sass filename.scss:filename.css
 ```
 
 Keep the compiler active for  new code build automatic
-```ruby
+```rb
 sass --watch filename.scss:filename.css
 ```
 
 ## Commenting in code Sass
 
 **This way, it does not appear in the code compiled**
-```scss
+``` css
 // comment
 ```
 
 **This way, it appear in the code compiled**
-```scss
+``` css
 /** comment **/ 
 ```
 
 ## Variables Sass
 
 **defining**
-```scss
+``` css
 $nome_variavel = blue;
 ```
 
 **using**
-```scss
+``` css
 div {
 	cor: $nome_variavel
 }
