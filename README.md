@@ -49,7 +49,7 @@ div {
 > - Set meaningful name for code divisions
 > - To nest the children elements with your father, careful to avoid too deep structures causing slowness browser
 > - Use the '&' to align directly with the parent element
-> - If file type is 'scss', so isn't not necessary typing the extension in the import
+> - If file type is 'scss', so isn't not necessary typing the extension in the his import
 > - Create folder for to organize of project
 > - Concatenating 'scss' files is a good practice to reduce the request to the server
 
