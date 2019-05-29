@@ -44,14 +44,14 @@ div {
 
 ## Good practices annotated
 >
-> - create variables for parameters (colors, default sizes, etcs)
+> - Create variables for parameters (colors, default sizes, etcs)
 > - Create mixin for code that repeat
 > - Set meaningful name for code divisions
-> - aninar os elementos filhos com seu pai com cuidado para evitar estruturas muito profundas causando lentidão no browser
-> - usar o & para alinamento direto com o elemento pai
-> - caso arquivo sejá scss não é necessário usar a extenção do arquivo no import
-> - criar pastas para organização do projeto
-> - concatenar arquivos scss é uma boa prática reduzindo o request ao servidor
+> - To nest the children elements with your father, careful to avoid too deep structures causing slowness browser
+> - Use the '&' to align directly with the parent element
+> - If file extension is 'scss', so isn't not necessary then typing the extension in the import
+> - Create folder for to organize of project
+> - Concatenating 'scss' files is a good practice to reduce the request to the server
 
 cores - funções
 lighten(cor, porcentagem) deixa a cor informada mais clara conforme porcentagem informada
