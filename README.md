@@ -86,7 +86,7 @@ div {
 
 - It's also possible to send parameters to functions
 - It's possible create functions that return of calculation values, for example:
-- Sass provides several ready-made functions, for example, the `round` function used to round numbers, more nformation in *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)*
+- Sass provides several ready-made functions, for example, the `round` function used to round numbers, more examples in *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)*
 
 defining
 ```css
