@@ -125,7 +125,7 @@ div {
 
 ## Useful links
 
-- *[http://sass-lang.com](http://sass-lang.com)*
+- *[http://sass-lang.com](http://sass-lang.com){:target="_blank"}*
 - *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)*
 - *[https://sass-lang.com/documentation/functions](https://sass-lang.com/documentation/functions)*
 - *[https://github.com/designernatan/livro-sass](https://github.com/designernatan/livro-sass)*
@@ -173,6 +173,8 @@ compass create
 
 manter o compass vigiando alterações para compilar automaticamente
 compass	watch css/estilos.scss
+
+
 
 TO SEE TOO
 Controladores	de	fluxo	(	@if	,		@else	) I love supporting **[SASS-LANG](http://sass-lang.com)**.
