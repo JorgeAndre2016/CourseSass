@@ -99,6 +99,7 @@ using
 div {
   width: area-width(4);
 }
+```
 
 - Sass provides several ready-made functions, for examples:
 
@@ -113,11 +114,6 @@ PARA MAIS FUNÇÕES DE CORES CONSULTAR A DOCUMENTAÇÃO DO SASS
 **[SASS FUNCIONTION](http://sasslang.com/documentation/Sass/Script/Functions.html)** \| 
        **[LINKS TWO](https://sass-lang.com/documentation/functions)**
 
-
-
-
-
-```
 
 ## Good practices annotated
 >
