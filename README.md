@@ -42,7 +42,7 @@ div {
 }
 ```
 
-[nee]: ## Good practices annotated
+## Good practices annotated {#cust}
 >
 > - Create variables for parameters (colors, default sizes, etcs)
 > - Create mixin for code that repeat
@@ -112,14 +112,28 @@ podemos criar funções que retornan resultados
 
 função round para valore quebrados (18.58)
 
-Sass	minifique	seu	arquivo [cust](#cust)
+Sass	minifique	seu	arquivo
 sass	--watch	estilos.scss:/estilos.css	--style	compressed
 
-
-LER NO SITE DO SASS (http://sass-lang.com),	dos	segui
-http://susy.oddbird.net)
+## Useful links
+- *[http://sass-lang.com](http://sass-lang.com)*
+- *[http://susy.oddbird.net](http://susy.oddbird.net)*
 http://sasslang.com/documentation/Sass/Script/Functions.html.
 https://sass-lang.com/documentation/functions funções sass
+https://github.com/designernatan/livro-sass
+(http://gulpjs.com)	e	o	Grunt	(http://gruntjs.com/).
+http://csswizardry.com/2016/02/mixins-better-for-performance.
+http://blog.sass-lang.com
+http://thesassway.com
+Foruns
+http://www.guj.com.br
+https://github.com/frontendbr
+http://forum.tableless.com.br
+http://forum.casadocodigo.com.br
+Comunidades:
+Meetup	CSS
+Meetup	FrontUX
+Femug
 
 
 TO SEE TOO
@@ -154,13 +168,3 @@ features,	eles	postam	a	respeito.
 http://thesassway.com	 —	 Gosto	 bastante	 desse
 por	 dividir	 seus	 posts	 em	níveis,	 do	iniciante	ao
 avançado.
-
-Fóruns:
-http://www.guj.com.br
-https://github.com/frontendbr
-http://forum.tableless.com.br
-http://forum.casadocodigo.com.br
-Comunidades:
-Meetup	CSS
-Meetup	FrontUX
-Femug
