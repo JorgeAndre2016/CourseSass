@@ -42,7 +42,7 @@ div {
 }
 ```
 
-## Good practices annotated {#cust}
+## Good practices annotated {#cust-id}
 >
 > - Create variables for parameters (colors, default sizes, etcs)
 > - Create mixin for code that repeat
