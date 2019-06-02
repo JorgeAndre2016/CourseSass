@@ -42,7 +42,7 @@ div {
 }
 ```
 
-## Good practices annotated {{#cust}}
+## Good practices annotated {#cust}
 >
 > - Create variables for parameters (colors, default sizes, etcs)
 > - Create mixin for code that repeat
@@ -112,7 +112,7 @@ podemos criar funções que retornan resultados
 
 função round para valore quebrados (18.58)
 
-Sass	minifique	seu	arquivo id='cust'
+Sass	minifique	seu	arquivo [cust](#cust)
 sass	--watch	estilos.scss:/estilos.css	--style	compressed
 
 
