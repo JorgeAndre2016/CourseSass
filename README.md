@@ -125,7 +125,7 @@ div {
 
 ## Useful links
 
-- *[http://sass-lang.com](http://sass-lang.com){:target="_blank"}*
+- *[http://sass-lang.com](http://sass-lang.com)*
 - *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)*
 - *[https://sass-lang.com/documentation/functions](https://sass-lang.com/documentation/functions)*
 - *[https://github.com/designernatan/livro-sass](https://github.com/designernatan/livro-sass)*
