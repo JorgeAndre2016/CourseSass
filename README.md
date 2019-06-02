@@ -19,26 +19,86 @@ sass --watch filename.scss:filename.css
 ## Commenting in code Sass
 
 **This way, it does not appear in the code compiled**
-``` css
+```css
 // comment
 ```
 
 **This way, it appear in the code compiled**
-``` css
+```css
 /** comment **/
 ```
 
 ## Variables Sass
 
-**defining**
-``` css
+defining
+```css
 $nome_variavel = blue;
 ```
 
-**using**
-``` css
+using
+```css
 div {
   cor: $nome_variavel
+}
+```
+
+## Mixin and Placeholder
+
+**Mixin - Copy the code where is called (Leaving the code little performative)
+
+- It's possible to send parameters for Mixins, unlike of the Placeholder
+- Use the mixins in cases where there is need to send parameters
+
+defining
+```css
+@mixin nameMixin($parameters) {
+	cor: $parameters;
+}
+```
+
+using
+```css
+div {
+  @include nameMixin(red);
+}
+```
+
+**Placeholder - Code shared between several css rules (Leaving the code more performative)
+
+- Unable to send parameters for Placeholders, unlike of the Mixin
+- Use the placeholder where there isn't need to send parameters
+
+defining
+```css
+%nomeplaceholder {
+  cor: red;
+}
+```
+
+using
+```css
+div {
+  @extend %nomeplaceholder
+}
+```
+
+## Functions
+
+- It's also possible to send parameters to functions
+- It's possible create functions that return of calculation values, for example:
+- Sass provides several ready-made functions, for example, the `round` function used to round numbers, more nformation in *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)*
+
+defining
+```css
+@function area-width($area) {
+	@return $area *2;
+}
+```
+
+using
+```css
+div {
+  width: area-width(4);
 }
 ```
 
@@ -79,7 +139,10 @@ div {
 - Meetup **(FrontUX)**
 - Femug
 
+Sass	minifique	seu	arquivo
+sass	--watch	estilos.scss:/estilos.css	--style	compressed
 
+--------------------------
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
 <https://www.markdownguide.org>
@@ -87,7 +150,10 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 imagem 
 ![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
 imagem link
-[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://
+www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+------------------------------
+
 
 cores - funções
 lighten(cor, porcentagem) deixa a cor informada mais clara conforme porcentagem informada
@@ -104,44 +170,6 @@ compass create
 
 manter o compass vigiando alterações para compilar automaticamente
 compass	watch css/estilos.scss
-
-
-MIXIN - cópia o código na onde é chamado (não performático)
-@mixin nome {
-	cor: red;
-}
-Usando MIXIN
-.div {
-	@include nome_mixin
-}
-Podemos passar parâmetros para os mixin 0 funções
----------------
-EXTEND - deixando o código mais performático
-extend permite compartilhar código entre várias regras css
-criar   
-    .nomeextend
-usar
-    @extend .nomeextend
----------------
-USAR ESTA DECLARAÇÃO NO LUGAR DA DE CIMA
-placeholder % retirar a classe gerada inultimente no código pelo extend
-criar
-    %nomeplaceholder
-usar
-    @extend %nomeplaceholder
----------------
-podemos criar funções que retornan resultados
-
-@function retorna-largura() {
-	@return 1 *2;
-}
-
-função round para valore quebrados (18.58)
-
-Sass	minifique	seu	arquivo
-sass	--watch	estilos.scss:/estilos.css	--style	compressed
-
-
 
 TO SEE TOO
 Controladores	de	fluxo	(	@if	,		@else	) I love supporting **[SASS-LANG](http://sass-lang.com)**.
