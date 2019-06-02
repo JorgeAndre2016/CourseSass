@@ -53,6 +53,29 @@ div {
 > - Create folder for to organize of project
 > - Concatenating 'scss' files is a good practice to reduce the request to the server
 
+## Useful links
+
+- *[http://sass-lang.com](http://sass-lang.com)*
+- *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)*
+- *[https://sass-lang.com/documentation/functions](https://sass-lang.com/documentation/functions)*
+- *[https://github.com/designernatan/livro-sass](https://github.com/designernatan/livro-sass)*
+- *[http://gulpjs.com](http://gulpjs.com)*
+- *[http://gruntjs.com](http://gruntjs.com)*
+- *[http://susy.oddbird.net](http://susy.oddbird.net)*
+- *[http://csswizardry.com/2016/02/mixins-better-for-performance](http://csswizardry.com/2016/02/mixins-better-for-performance)*
+- *[http://blog.sass-lang.com](http://blog.sass-lang.com)*
+- *[http://thesassway.com](http://thesassway.com)*
+
+Foruns
+http://www.guj.com.br
+https://github.com/frontendbr
+http://forum.tableless.com.br
+http://forum.casadocodigo.com.br
+Comunidades:
+Meetup	CSS
+Meetup	FrontUX
+Femug
+
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
@@ -115,25 +138,6 @@ função round para valore quebrados (18.58)
 Sass	minifique	seu	arquivo
 sass	--watch	estilos.scss:/estilos.css	--style	compressed
 
-## Useful links
-- *[http://sass-lang.com](http://sass-lang.com)*
-- *[http://susy.oddbird.net](http://susy.oddbird.net)*
-http://sasslang.com/documentation/Sass/Script/Functions.html.
-https://sass-lang.com/documentation/functions funções sass
-https://github.com/designernatan/livro-sass
-(http://gulpjs.com)	e	o	Grunt	(http://gruntjs.com/).
-http://csswizardry.com/2016/02/mixins-better-for-performance.
-http://blog.sass-lang.com
-http://thesassway.com
-Foruns
-http://www.guj.com.br
-https://github.com/frontendbr
-http://forum.tableless.com.br
-http://forum.casadocodigo.com.br
-Comunidades:
-Meetup	CSS
-Meetup	FrontUX
-Femug
 
 
 TO SEE TOO
