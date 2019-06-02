@@ -44,7 +44,7 @@ div {
 
 ## Mixin and Placeholder
 
-**Mixin - Copy the code where is called (Leaving the code little performative)
+**Mixin - Copy the code where is called (Leaving the code little performative)**
 
 - It's possible to send parameters for Mixins, unlike of the Placeholder
 - Use the mixins in cases where there is need to send parameters
@@ -52,7 +52,7 @@ div {
 defining
 ```css
 @mixin nameMixin($parameters) {
-	cor: $parameters;
+  cor: $parameters;
 }
 ```
 
@@ -63,7 +63,7 @@ div {
 }
 ```
 
-**Placeholder - Code shared between several css rules (Leaving the code more performative)
+**Placeholder - Code shared between several css rules (Leaving the code more performative)**
 
 - Unable to send parameters for Placeholders, unlike of the Mixin
 - Use the placeholder where there isn't need to send parameters
@@ -91,7 +91,7 @@ div {
 defining
 ```css
 @function area-width($area) {
-	@return $area *2;
+  @return $area *2;
 }
 ```
 
