@@ -103,16 +103,13 @@ div {
 
 - Sass provides several ready-made functions, for examples:
 
-- `round` function used to round numbers
-- lighten(color default, percentage) - leaving the default color lighter according percent reported
-- darken(cor default, percentage) - opposite effect of the function `lighten`
+- round(18.98) - the function id used to round numbers
+- lighten(color default, percentage) - the function leaving the default color lighter according percent reported
+- darken(cor default, percentage) - this function has the opposite effect of the function `lighten`
 
-**More examples in *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)***
-
-
-PARA MAIS FUNÇÕES DE CORES CONSULTAR A DOCUMENTAÇÃO DO SASS 
-**[SASS FUNCIONTION](http://sasslang.com/documentation/Sass/Script/Functions.html)** \| 
-       **[LINKS TWO](https://sass-lang.com/documentation/functions)**
+**More examples in:**
+- *[http://sasslang.com/documentation/Sass/Script/Functions.html](http://sasslang.com/documentation/Sass/Script/Functions.html)*
+- *[https://sass-lang.com/documentation/functions](https://sass-lang.com/documentation/functions)*
 
 
 ## Good practices annotated
