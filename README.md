@@ -66,15 +66,18 @@ div {
 - *[http://blog.sass-lang.com](http://blog.sass-lang.com)*
 - *[http://thesassway.com](http://thesassway.com)*
 
-Foruns
-http://www.guj.com.br
-https://github.com/frontendbr
-http://forum.tableless.com.br
-http://forum.casadocodigo.com.br
-Comunidades:
-Meetup	CSS
-Meetup	FrontUX
-Femug
+## Forums
+
+* http://www.guj.com.br
+* https://github.com/frontendbr
+* http://forum.tableless.com.br
+* http://forum.casadocodigo.com.br
+
+## Communities
+
+- Meetup **(CSS)**
+- Meetup **(FrontUX)**
+- Femug
 
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
